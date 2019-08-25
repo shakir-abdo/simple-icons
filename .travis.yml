@@ -23,6 +23,7 @@ jobs:
 
     - stage: deploy
       name: "Git tag"
+      language: node_js
       if: branch = master
 
       before_deploy:
